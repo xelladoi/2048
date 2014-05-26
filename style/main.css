@@ -3,7 +3,7 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: #FF3333;
+  background: #F78181;
   color: #354b59;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-family: "Whitney SSm A","Whitney SSm B","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -42,7 +42,7 @@ input {
   -moz-appearance: none;
   appearance: none; }
   input[type="text"], input[type="email"] {
-    cursor: bird;
+    cursor: default;
     background: #fcfbf9;
     font-weight: normal;
     color: #776e65;
@@ -96,7 +96,7 @@ h1.title {
 .score-container, .best-container {
   position: relative;
   display: inline-block;
-  background: #0c92bf;
+  background: #0B173B;
   padding: 15px 25px;
   font-size: 25px;
   height: 25px;
@@ -209,7 +209,7 @@ hr {
   -ms-user-select: none;
   -ms-touch-action: none;
   touch-action: none;
-  background: #1e6477;
+  background: #0B173B;
   border-radius: 6px;
   width: 500px;
   height: 500px;
@@ -404,37 +404,37 @@ hr {
     font-size: 16px; 
     color: #354b59;}
   .tile.tile-2 .tile-inner {
-    background: url('../tile-sets/succession/2.jpg');
+    background: url('../tile-sets/succession/2.jpeg');
     background-size: 100%;
     color: rgba(0,0,0,0);
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-4 .tile-inner {
-    background: url('../tile-sets/succession/4.jpg');
+    background: url('../tile-sets/succession/4.jpeg');
     background-size: 100%;
     color: rgba(0,0,0,0);
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-8 .tile-inner {
-    background: url('../tile-sets/succession/8.jpg');
+    background: url('../tile-sets/succession/8.jpeg');
     background-size: 100%;
     color: rgba(0,0,0,0);
     font-weight: medium;
     font-size: 11px;
   }
   .tile.tile-16 .tile-inner {
-    background: url('../tile-sets/succession/16.jpg');
+    background: url('../tile-sets/succession/16.jpeg');
     background-size: 100%;
     color: rgba(0,0,0,0);
     font-weight: medium;
     font-size: 10px;
   }
   .tile.tile-32 .tile-inner {
-    background: url('../tile-sets/succession/32.jpg');
+    background: url('../tile-sets/succession/32.jpeg');
     background-size: 100%;
     color: rgba(0,0,0,0);
     font-size: 14px;
   }
   .tile.tile-64 .tile-inner {
-    background: url('../tile-sets/succession/64.jpg');
+    background: url('../tile-sets/succession/64.jpeg');
     background-size: 100%;
     color: rgba(0,0,0,0);
     font-size: 14px;
@@ -442,7 +442,7 @@ hr {
   }
   .tile.tile-128 .tile-inner {
     font-weight: medium;
-    background: url('../tile-sets/succession/128.jpg');
+    background: url('../tile-sets/succession/128.jpeg');
     background-size: 100%;
     color: rgba(0,0,0,0);
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
@@ -451,7 +451,7 @@ hr {
       .tile.tile-128 .tile-inner {
         font-size: 12px; } }
   .tile.tile-256 .tile-inner {
-    background: url('../tile-sets/succession/256.jpg');
+    background: url('../tile-sets/succession/256.jpeg');
     background-size: 100%;
     color: rgba(0,0,0,0);
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
@@ -460,7 +460,7 @@ hr {
       .tile.tile-256 .tile-inner {
         font-size: 16px; } }
   .tile.tile-512 .tile-inner {
-    background: url('../tile-sets/succession/512.jpg');
+    background: url('../tile-sets/succession/512.jpeg');
     background-size: 100%;
     color: rgba(0,0,0,0);
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
@@ -469,7 +469,7 @@ hr {
       .tile.tile-512 .tile-inner {
         font-size: 13px; } }
   .tile.tile-1024 .tile-inner {
-    background: url('../tile-sets/succession/1024.jpg');
+    background: url('../tile-sets/succession/1024.jpeg');
     background-size: 100%;
     color: rgba(0,0,0,0);
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
@@ -478,7 +478,7 @@ hr {
       .tile.tile-1024 .tile-inner {
         font-size: 10px; } }
   .tile.tile-2048 .tile-inner {
-    background: url('../tile-sets/succession/2048.jpg');
+    background: url('../tile-sets/succession/2048.jpeg');
     background-size: 100%;
     color: rgba(0,0,0,0);
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
@@ -667,7 +667,7 @@ hr {
     -ms-user-select: none;
     -ms-touch-action: none;
     touch-action: none;
-    background: #1e6477;
+    background: #0B173B;
     border-radius: 6px;
     width: 280px;
     height: 280px;
@@ -981,7 +981,7 @@ a.learn:hover, a.keep-playing-button:hover, a.learn-low:hover {
 }
 .restart-button, a.retry-button {
   display: inline-block;
-  background: #1e6477;
+  background: #0B173B;
   border-radius: 3px;
   padding: 0 20px;
   text-decoration: none;
