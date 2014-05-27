@@ -42,7 +42,11 @@ input {
   -moz-appearance: none;
   appearance: none; }
   input[type="text"], input[type="email"] {
+<<<<<<< HEAD
     cursor: auto;
+=======
+    cursor: default;
+>>>>>>> gh-pages
     background: #fcfbf9;
     font-weight: normal;
     color: #776e65;
@@ -53,7 +57,10 @@ input {
       color: #9d948c; }
     input[type="text"]:-ms-input-placeholder, input[type="email"]:-ms-input-placeholder {
       color: #9d948c; }
+<<<<<<< HEAD
 
+=======
+>>>>>>> gh-pages
 .heading:after {
   content: "";
   display: block;
